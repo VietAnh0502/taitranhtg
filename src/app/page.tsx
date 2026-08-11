@@ -58,7 +58,7 @@ export default function Home() {
                 sự chủ động và bản lĩnh đưa ra những quyết định đầu tư có trách nhiệm.
               </p>
               <div className="hero__actions">
-                <a className="button button--gold" href="#cau-chuyen">Câu chuyện của tôi <ArrowIcon /></a>
+                <a className="button button--gold" href="/phuongphapdautu">Phương pháp đầu tư của tôi <ArrowIcon /></a>
                 <a className="button button--line" href="#lien-he">Kết nối với Tài Trần</a>
               </div>
             </div>
