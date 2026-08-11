@@ -143,7 +143,6 @@ export default function Home() {
             <div className="profile-panel">
               <div className="profile-panel__image">
                 <Image src={siteConfig.images.profile} alt="Chân dung Tài Trần" fill sizes="(max-width: 900px) 100vw, 38vw" />
-                <div className="profile-panel__monogram">TT</div>
               </div>
               <div className="profile-panel__content">
                 <p className="eyebrow">Hồ sơ cá nhân</p>
