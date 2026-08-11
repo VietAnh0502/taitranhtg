@@ -13,7 +13,6 @@ export function Footer() {
         </div>
         <div className="footer-contact">
           <span>Kết nối trực tiếp</span>
-          <a href={siteConfig.phone.href}>{siteConfig.phone.display}</a>
           {siteConfig.assistants.map((a) => (
             <a key={a.zalo} href={a.zalo} target="_blank" rel="noreferrer">{a.name}: {a.phone}</a>
           ))}

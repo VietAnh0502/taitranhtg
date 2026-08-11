@@ -1,4 +1,5 @@
 import Image from "next/image";
+import gioiThieuImage from "../../img/pro/gioiThieu.jpg";
 import { Header } from "@/components/Header";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ValueCard } from "@/components/ValueCard";
@@ -64,8 +65,8 @@ export default function Home() {
             <div className="hero__portrait">
               <div className="hero__halo" aria-hidden="true" />
               <Image
-                src={siteConfig.images.hero}
-                alt="Chân dung Tài Trần trong bộ vest xám"
+                src={gioiThieuImage}
+                alt="Chân dung Tài Trần"
                 fill
                 priority
                 sizes="(max-width: 800px) 92vw, 48vw"
