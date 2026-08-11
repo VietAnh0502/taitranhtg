@@ -3038,10 +3038,6 @@ svg {
     scroll-padding-top: 68px;
   }
 
-  body {
-    padding-bottom: 66px;
-  }
-
   .container {
     width: min(100% - 28px, 520px);
   }

@@ -95,9 +95,11 @@ export const siteConfig = {
   ],
   menu: [
     ["Trang chủ", "#trang-chu"],
+    ["Slogan của tôi", "#tuyen-ngon"],
+    ["Hệ thống tỉnh thức HTG", "#phuong-phap-dau-tu"],
     ["Câu chuyện của tôi", "#cau-chuyen"],
     ["Sứ mệnh", "#su-menh"],
-    ["Con người Tài Trần", "#con-nguoi"],
+    ["Hồ sơ Tài Trần", "#ho-so"],
     ["Thành tựu", "#thanh-tuu"],
     ["HTG Investments", "#htg"],
     ["Góc nhìn", "#goc-nhin"],

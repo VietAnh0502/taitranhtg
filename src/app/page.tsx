@@ -5,7 +5,6 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { ValueCard } from "@/components/ValueCard";
 import { ContactCta } from "@/components/ContactCta";
 import { Footer } from "@/components/Footer";
-import { MobileContactBar } from "@/components/MobileContactBar";
 import { SocialLinks } from "@/components/SocialLinks";
 import { InvestmentMethod } from "@/components/InvestmentMethod";
 import {
@@ -58,7 +57,6 @@ export default function Home() {
               </p>
               <div className="hero__actions">
                 <a className="button button--gold" href="/phuongphapdautu">Phương pháp đầu tư của tôi <ArrowIcon /></a>
-                <a className="button button--line" href="#lien-he">Kết nối với Tài Trần</a>
               </div>
             </div>
             <div className="hero__portrait">
@@ -135,7 +133,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="character section" id="con-nguoi">
+        <section className="character section" id="ho-so">
           <div className="container">
             
 
@@ -251,12 +249,6 @@ export default function Home() {
         <ContactCta />
       </main>
       <Footer />
-      <div className="zalo-float-group">
-        {siteConfig.assistants.map((a) => (
-          <a key={a.zalo} className="zalo-float" href={a.zalo} target="_blank" rel="noreferrer" aria-label={`Nhắn tin cho ${a.name} qua Zalo`}>Zalo<span>{a.name}</span></a>
-        ))}
-      </div>
-      <MobileContactBar />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
     </>
   );

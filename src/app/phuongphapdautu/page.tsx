@@ -13,7 +13,6 @@ import { ContactCta } from "@/components/ContactCta";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { InvestmentSystem } from "@/components/InvestmentSystem";
-import { MobileContactBar } from "@/components/MobileContactBar";
 import { SectionHeading } from "@/components/SectionHeading";
 import { siteConfig } from "@/config/site";
 
@@ -102,21 +101,6 @@ export default function InvestmentMethodPage() {
         <ContactCta />
       </main>
       <Footer />
-      <div className="zalo-float-group">
-        {siteConfig.assistants.map((assistant) => (
-          <a
-            key={assistant.zalo}
-            className="zalo-float"
-            href={assistant.zalo}
-            target="_blank"
-            rel="noreferrer"
-            aria-label={`Nhắn tin cho ${assistant.name} qua Zalo`}
-          >
-            Zalo<span>{assistant.name}</span>
-          </a>
-        ))}
-      </div>
-      <MobileContactBar />
     </>
   );
 }
