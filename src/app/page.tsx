@@ -65,8 +65,8 @@ export default function Home() {
             <div className="hero__portrait">
               <div className="hero__halo" aria-hidden="true" />
               <Image
-                src={gioiThieuImage}
-                alt="Chân dung Tài Trần"
+                src={siteConfig.images.hero}
+                alt="Chân dung Tài Trần trong bộ vest xám"
                 fill
                 priority
                 sizes="(max-width: 800px) 92vw, 48vw"
@@ -223,7 +223,7 @@ export default function Home() {
             />
             <div className="perspectives__grid">
               <a className="media-card media-card--feature" href={siteConfig.social.youtube} target="_blank" rel="noreferrer">
-                <Image src={siteConfig.images.profile} alt="Tài Trần nhìn thẳng vào camera" fill sizes="(max-width: 800px) 100vw, 58vw" />
+                <Image src={gioiThieuImage} alt="Tài Trần trong video giới thiệu" fill sizes="(max-width: 800px) 100vw, 58vw" />
                 <div className="media-card__overlay" />
                 <div className="media-card__content"><PlayIcon /><span>Video giới thiệu</span><h3>Gặp Tài Trần — người đồng hành cùng nhà đầu tư</h3></div>
               </a>
