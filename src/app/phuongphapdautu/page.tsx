@@ -42,15 +42,22 @@ export default function InvestmentMethodPage() {
           <div className="hero__grain" aria-hidden="true" />
           <div className="container hero__grid">
             <div className="hero__content">
-              <p className="hero__kicker">Nhà sáng lập HTG Investments</p>
-              <h1><span>TÀI</span> TRẦN</h1>
-              <p className="hero__tagline">Người đầu tiên bản địa hóa & hoàn thiện "Phương pháp Đầu tư Giá trị Tăng trưởng Warren Buffett" tại Việt Nam.</p>
+              <p className="hero__kicker">Di sản đầu tư hơn sáu thập kỷ</p>
+              <h1><span>WARREN</span> BUFFETT</h1>
+              <p className="hero__tagline">Một trong những nhà đầu tư thành công nhất lịch sử.</p>
               <p className="hero__intro">
-                Hệ thống Đầu tư Tỉnh Thức HTG - “Tỉnh thức trước đám đông – Sáng suốt cùng giá trị”
+                Trong hơn 60 năm, Berkshire Hathaway duy trì mức sinh lời kép khoảng 19,7% mỗi năm — minh chứng
+                nổi bật cho sức mạnh của giá trị, kỷ luật và tầm nhìn dài hạn.
               </p>
-              <div className="hero__actions">
-                <a className="button button--line" href="#lien-he">Kết nối với Tài Trần</a>
+              <div className="buffett-hero__stats" aria-label="Những con số nổi bật về Warren Buffett và Berkshire Hathaway">
+                <div><strong>19,7%</strong><span>Sinh lời kép mỗi năm</span></div>
+                <div><strong>1.000 USD</strong><span>Thành gần 61 triệu USD</span></div>
+                <div><strong>1.200+ tỷ USD</strong><span>Tài sản Berkshire</span></div>
               </div>
+              <p className="buffett-hero__legacy">
+                <span>≈ 150 tỷ USD tài sản cá nhân</span>
+                <span>Hơn 68 tỷ USD đã quyên góp</span>
+              </p>
             </div>
             <div className="hero__portrait">
               <div className="hero__halo" aria-hidden="true" />

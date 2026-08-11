@@ -509,6 +509,75 @@ svg {
   height: 18%;
 }
 
+.hero--method h1 {
+  max-width: 780px;
+  font-size: clamp(4.7rem, 8vw, 8.5rem);
+  line-height: 0.82;
+}
+
+.buffett-hero__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-top: 34px;
+  background: rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.buffett-hero__stats div {
+  min-height: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(7, 16, 14, 0.78);
+  backdrop-filter: blur(10px);
+}
+
+.buffett-hero__stats strong {
+  color: var(--gold-light);
+  font-size: clamp(1.15rem, 2vw, 1.65rem);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+}
+
+.buffett-hero__stats span {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.6rem;
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.buffett-hero__legacy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 26px;
+  margin: 18px 0 0;
+  color: rgba(255, 255, 255, 0.52);
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.buffett-hero__legacy span {
+  position: relative;
+  padding-left: 14px;
+}
+
+.buffett-hero__legacy span::before {
+  content: "";
+  position: absolute;
+  top: 0.65em;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background: var(--gold-light);
+  border-radius: 50%;
+}
+
 .hero__halo {
   position: absolute;
   z-index: 0;
@@ -2757,6 +2826,10 @@ svg {
     font-size: clamp(5.4rem, 24vw, 8rem);
   }
 
+  .hero--method h1 {
+    font-size: clamp(4.8rem, 18vw, 7.4rem);
+  }
+
   .hero__tagline {
     margin-top: 38px;
   }
@@ -3088,6 +3161,28 @@ svg {
 
   .hero h1 {
     font-size: clamp(4.7rem, 25vw, 6.3rem);
+  }
+
+  .hero--method h1 {
+    font-size: clamp(4rem, 20vw, 5.5rem);
+  }
+
+  .buffett-hero__stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .buffett-hero__stats div:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .buffett-hero__stats div {
+    min-height: 104px;
+    padding: 18px;
+  }
+
+  .buffett-hero__legacy {
+    flex-direction: column;
+    gap: 8px;
   }
 
   .hero__tagline {

@@ -52,10 +52,9 @@ export default function Home() {
             <div className="hero__content">
               <p className="hero__kicker">Nhà sáng lập HTG Investments</p>
               <h1><span>TÀI</span> TRẦN</h1>
-              <p className="hero__tagline">{siteConfig.tagline}</p>
+              <p className="hero__tagline">Người đầu tiên bản địa hóa & hoàn thiện "Phương pháp Đầu tư Giá trị Tăng trưởng Warren Buffett" tại Việt Nam.</p>
               <p className="hero__intro">
-                Tôi không chỉ mang đến những góc nhìn về thị trường. Tôi đồng hành để các bạn xây dựng tư duy,
-                sự chủ động và bản lĩnh đưa ra những quyết định đầu tư có trách nhiệm.
+                Hệ thống Đầu tư Tỉnh Thức HTG - “Tỉnh thức trước đám đông – Sáng suốt cùng giá trị”
               </p>
               <div className="hero__actions">
                 <a className="button button--gold" href="/phuongphapdautu">Phương pháp đầu tư của tôi <ArrowIcon /></a>
